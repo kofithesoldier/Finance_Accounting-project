@@ -8,6 +8,7 @@ Practice SQL from basic to advanced using a realistic accounting and finance dat
 This project provides a comprehensive SQL practice environment for learners aiming to develop their skills from basic to advanced SQL in accounting and finance. It includes a realistic multi-table dataset with customers, employees, vendors, invoices, payments, budgets, and expenses.
 
 # Dataset Creation
+The dataset was created with careful attention to realism. The process started by dropping tables if they existed to avoid conflicts before creation. The tables were then created with appropriate primary and foreign keys to maintain referential integrity.
 
 The dataset was manually created to reflect common accounting and finance scenarios. It contains the following tables:
 
@@ -25,6 +26,22 @@ The dataset was manually created to reflect common accounting and finance scenar
 
 * **Budgets** – Department, Year, BudgetAmount, ActualSpent
 
+  ## SQL QUERIES FOR CREATING THE DATASET
+  
+ -- DROP TABLES (for clean reloads)
+-- ===============================
+```sql
+DROP TABLE IF EXISTS Payments;
+DROP TABLE IF EXISTS Invoices;
+DROP TABLE IF EXISTS Expenses;
+DROP TABLE IF EXISTS Budgets;
+DROP TABLE IF EXISTS Accounts;
+DROP TABLE IF EXISTS Employees;
+DROP TABLE IF EXISTS Vendors;
+DROP TABLE IF EXISTS Customers;
+```
+
+
 The data was generated with realistic values to allow meaningful SQL analysis and KPI calculations.
 
 ## Project Highlights for Portfolio
@@ -33,6 +50,8 @@ The data was generated with realistic values to allow meaningful SQL analysis an
 * **Business insights**: Calculate KPIs like revenue, payment delays, budget variances, and trends.
 * **Advanced techniques**: Window functions, CTEs (including recursive), ranking, trend analysis.
 * **Portfolio-ready**: Demonstrates real-world SQL problem-solving in finance and accounting contexts.
+
+  
 
 ## How This Project Shows Your Skills
 
