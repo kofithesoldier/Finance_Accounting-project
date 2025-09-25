@@ -171,6 +171,7 @@ INSERT INTO Expenses VALUES
 ```
 
 **BUDGETS TABLE**
+```SQL
 CREATE TABLE Budgets (
     BudgetID VARCHAR(10) PRIMARY KEY,
     Department VARCHAR(50),
