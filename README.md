@@ -199,7 +199,7 @@ The data was generated with realistic values to allow meaningful SQL analysis an
 
   
 
-## How This Project Shows Your Skills
+## How This Project Shows My Skills
 
 * **Data exploration**: Understanding relationships and data structures.
 * **Analytical skills**: Creating KPIs and interpreting results.
