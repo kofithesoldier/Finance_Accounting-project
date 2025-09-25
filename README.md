@@ -322,7 +322,7 @@ from payments
 group by invoiceid;
 ```
 
-* **Q.13.List all expenses that were made in the year 2023.**#
+* **Q.13.List all expenses that were made in the year 2023.**
 ```sql
 select *
 from expenses
