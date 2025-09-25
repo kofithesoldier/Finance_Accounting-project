@@ -806,11 +806,34 @@ FROM employees
 WHERE YEAR(hiredate)=2023
 GROUP BY department;
 ```
+
+## Findings
+- **Customer Analysis**: A small group of customers contributed the majority of revenue, with some customers consistently delaying payments, creating potential cash flow risks.  
+- **Invoice Insights**: Pending and overdue invoices made up a significant portion of 2023 transactions, highlighting collection inefficiencies.  
+- **Employee Costs**: Salaries were heavily concentrated in a few departments, with Finance and IT being the top contributors.  
+- **Budget vs Actuals**: Several departments overspent their allocated budgets, with variances showing gaps in financial discipline.  
+- **Vendor Analysis**: Vendors supplying office supplies were invoiced the most, while overseas vendors had fewer but higher-value invoices.  
+- **Payment Behavior**: The average payment delay was within 20–30 days, but outliers exceeded 60 days, impacting liquidity.  
+
+## Report
+This project successfully simulated a realistic business environment using accounting and finance data. The structured SQL queries (basic, intermediate, and advanced) allowed for comprehensive exploration of company performance.  
+- **Basic queries** focused on customer demographics, invoice counts, and revenue contributions.  
+- **Intermediate queries** revealed payment behaviors, departmental budget control, and vendor performance.  
+- **Advanced queries** showcased the power of CTEs, subqueries, and window functions to evaluate trends, rank entities, and calculate variances over time.  
+
+Key KPIs such as total revenue, overdue invoices, budget variance, and customer payment performance were derived and analyzed to provide actionable insights.  
+
+## Conclusion
+The analysis demonstrated how SQL can be leveraged to drive financial and operational insights in an accounting and finance context. By progressing from simple retrievals to advanced analytics, this project highlights the full spectrum of SQL’s capabilities.  
+
+This dataset and query bank can serve as:  
+- A **learning resource** for SQL practice,  
+- A **reference project** for demonstrating analytics skills, and  
+- A **foundation** for more advanced BI tools or dashboard development.  
+
+Ultimately, the project shows that structured SQL practice on realistic datasets equips learners with both technical proficiency and business-oriented analytical thinking.
+
      
-
-
-
-
 ## Suggested Usage
 
 * Clone the repository to your local environment.
@@ -818,4 +841,14 @@ GROUP BY department;
 * Practice queries from `basic_queries.sql`, `intermediate_queries.sql`, and `advanced_queries.sql`.
 * Use the assessment report to track your progress.
 
-**Showcase this project on GitHub** to demonstrate your SQL expertise in a finance and accounting context. It’s portfolio-ready and demonstrates structured, real-world SQL problem-solving skills.
+# Author - Kofi Obeng Nti
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles.
+
+# Appreciation
+Thank you for taking time to read! I hope you found this project helpful  and easy to follow .If you have any questions, suggestions, feedback or would like to collaborate ,feel free to open an issue or reach out- I'd love to hear from you! 
+
+# Connect with Me
+- **Email**: kofiobengnti@gmail.com
+- **Linkedin** : www.linkedin.com/in/kofi-obeng-nti-aa3884140
+
+
