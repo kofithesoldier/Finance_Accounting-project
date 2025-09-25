@@ -316,7 +316,7 @@ where status ='pending';
 ```sql
 select * from payments;
 select 
-     invoiceid,
+     invoiceid, 
      sum(amount) as Total_payment
 from payments
 group by invoiceid;
