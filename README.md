@@ -11,19 +11,19 @@ This project provides a comprehensive SQL practice environment for learners aimi
 
 The dataset was manually created to reflect common accounting and finance scenarios. It contains the following tables:
 
--**Customers** – CustomerID, CustomerName, Country
+* **Customers** – CustomerID, CustomerName, Country
 
--**Employees** – EmployeeID, Name, Department, Position, HireDate, Salary
+* **Employees** – EmployeeID, Name, Department, Position, HireDate, Salary
 
--**Vendors** – VendorID, VendorName, Country, Category
+* **Vendors** – VendorID, VendorName, Country, Category
 
--**Invoices** – InvoiceID, CustomerID, VendorID, InvoiceDate, TotalAmount, Status
+* **Invoices** – InvoiceID, CustomerID, VendorID, InvoiceDate, TotalAmount, Status
 
--**Payments** – PaymentID, InvoiceID, PaymentDate, Amount
+* **Payments** – PaymentID, InvoiceID, PaymentDate, Amount
 
--**Expenses** – ExpenseID, Category, Amount, ExpenseDate
+* **Expenses** – ExpenseID, Category, Amount, ExpenseDate
 
--**Budgets** – Department, Year, BudgetAmount, ActualSpent
+* **Budgets** – Department, Year, BudgetAmount, ActualSpent
 
 The data was generated with realistic values to allow meaningful SQL analysis and KPI calculations.
 
