@@ -40,8 +40,17 @@ DROP TABLE IF EXISTS Employees;
 DROP TABLE IF EXISTS Vendors;
 DROP TABLE IF EXISTS Customers;
 ```
-
-
+**CUSTOMERS TABLE**
+-- ===============================
+```SQL
+CREATE TABLE Customers (
+    CustomerID VARCHAR(10) PRIMARY KEY,
+    CustomerName VARCHAR(100) NOT NULL,
+    Industry VARCHAR(50),
+    Country VARCHAR(50),
+    JoinDate DATE
+);
+```
 The data was generated with realistic values to allow meaningful SQL analysis and KPI calculations.
 
 ## Project Highlights for Portfolio
