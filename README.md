@@ -29,7 +29,6 @@ The dataset was manually created to reflect common accounting and finance scenar
   ## SQL QUERIES FOR CREATING THE DATASET
   
  -- DROP TABLES (for clean reloads)
--- ===============================
 ```sql
 DROP TABLE IF EXISTS Payments;
 DROP TABLE IF EXISTS Invoices;
