@@ -218,7 +218,7 @@ The project includes queries for Basic, Intermediate, and Advanced SQL practice:
 select * from customers;
 select
       customername,
-      country
+      country,
 from customers;
 ```
 
